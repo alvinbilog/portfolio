@@ -1,0 +1,85 @@
+.Applications {
+  height: 85vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #525151;
+}
+
+.Applications .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Applications .container .mininav {
+  margin: 2rem;
+  list-style: none;
+  cursor: pointer;
+  color: #21201f;
+  padding: 2px;
+  border-radius: 42.5px;
+  padding: 3px 8px;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.Applications .container .active {
+  background-color: #eeeeee;
+  color: #21201f;
+  padding: 2px;
+  border-radius: 42.5px;
+  padding: 3px 8px;
+}
+
+.Applications .list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+.Applications .list-container .list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (0.1fr)[5];
+      grid-template-columns: repeat(5, 0.1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 16px;
+}
+
+@media only all and (max-width: 600px) {
+  .Applications {
+    position: relative;
+    top: 570px;
+    margin: 0 auto;
+  }
+  .Applications .container {
+    margin: 0 auto;
+  }
+  .Applications .list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+}
+/*# sourceMappingURL=Applications.css.map */

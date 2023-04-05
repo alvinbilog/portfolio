@@ -1,0 +1,14 @@
+.Footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 30px;
+  position: fixed;
+  z-index: 5;
+  bottom: 20px;
+  width: 100%;
+}
+/*# sourceMappingURL=Footer.css.map */

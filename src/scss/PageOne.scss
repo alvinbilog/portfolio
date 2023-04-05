@@ -1,0 +1,18 @@
+.PageOne {
+  //   border: red solid;
+  width: 600px;
+  height: 778px;
+  position: relative;
+
+  border-radius: 0px;
+  background: #fbfbfb;
+  box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+  img {
+    padding: 1rem;
+    // width: 550px;
+    width: 568px;
+    height: 746px;
+    // object-fit: cover;
+    // border: solid red;
+  }
+}

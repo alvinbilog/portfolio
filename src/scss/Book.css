@@ -1,0 +1,54 @@
+.Book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  position: relative;
+  margin-top: -70px;
+}
+
+.Book .container {
+  width: 600px;
+  height: 778px;
+  position: relative;
+  top: 80px;
+}
+
+.Book .container .greeting {
+  display: hidden;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.Book .container .greeting h1 {
+  font-weight: 500;
+  font-size: 96px;
+  padding: 0;
+  margin-top: -40px;
+}
+
+.Book .container .greeting h2 {
+  font-weight: 100;
+  font-size: 64px;
+}
+
+.Book .container .greeting h3 {
+  font-weight: 100;
+  font-size: 48px;
+  margin-top: -40px;
+}
+
+@media only all and (max-width: 600px) {
+  .Book {
+    position: relative;
+    top: 25px;
+  }
+  .Book .container .greeting {
+    width: 600px;
+    height: 778px;
+  }
+}
+/*# sourceMappingURL=Book.css.map */

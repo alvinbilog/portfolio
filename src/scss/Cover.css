@@ -1,0 +1,41 @@
+.Cover {
+  width: 600px;
+  height: 778px;
+  position: relative;
+  top: -50px;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  -webkit-box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+          box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+}
+
+.Cover .image {
+  text-align: center;
+  position: relative;
+  top: -44px;
+}
+
+.Cover .image h1 {
+  font-family: "Rhodium Libre", serif;
+  font-weight: 400;
+  font-size: 74px;
+  text-transform: uppercase;
+  color: #eeeeee;
+  letter-spacing: 5px;
+  position: relative;
+  top: 40px;
+}
+
+.Cover .image img {
+  height: 760px;
+  position: relative;
+  top: -125px;
+  z-index: 1;
+}
+
+@media only all and (max-width: 600px) {
+  .Cover {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Cover.css.map */

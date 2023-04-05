@@ -1,0 +1,53 @@
+.Book {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  // top: -40px;
+  margin-top: -70px;
+  // border: red solid;
+  .container {
+    width: 600px;
+    height: 778px;
+    position: relative;
+    top: 80px;
+
+    .greeting {
+      display: hidden;
+
+      margin-top: 150px;
+      margin-left: 50px;
+      h1 {
+        font-weight: 500;
+        font-size: 96px;
+
+        padding: 0;
+        margin-top: -40px;
+      }
+      h2 {
+        font-weight: 100;
+        font-size: 64px;
+      }
+      h3 {
+        font-weight: 100;
+        font-size: 48px;
+        margin-top: -40px;
+      }
+    }
+  }
+}
+
+@media only all and (max-width: 600px) {
+  .Book {
+    position: relative;
+    top: 25px;
+    .container {
+      // background-color: red;
+      .greeting {
+        width: 600px;
+        height: 778px;
+        // background-color: red;
+      }
+    }
+  }
+}

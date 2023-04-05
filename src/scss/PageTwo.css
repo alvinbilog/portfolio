@@ -1,0 +1,22 @@
+.PageTwo {
+  width: 600px;
+  height: 778px;
+  border-radius: 0px;
+  background: #fbfbfb;
+  -webkit-box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+          box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+  position: relative;
+  top: -20px;
+  color: #525151;
+}
+
+.PageTwo .container {
+  line-height: 0.5cm;
+  color: #525151;
+  margin-left: 20px;
+}
+
+.PageTwo .container p {
+  width: 550px;
+}
+/*# sourceMappingURL=PageTwo.css.map */

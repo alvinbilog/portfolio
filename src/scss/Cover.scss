@@ -1,0 +1,38 @@
+@import "./colors";
+.Cover {
+  width: 600px;
+  height: 778px;
+  position: relative;
+  top: -50px;
+  border-radius: 0px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+  .image {
+    text-align: center;
+    position: relative;
+    top: -44px;
+    h1 {
+      font-family: "Rhodium Libre", serif;
+      font-weight: 400;
+      font-size: 74px;
+      text-transform: uppercase;
+      color: $primarycolor;
+      letter-spacing: 5px;
+      // border: blue solid;
+      position: relative;
+      top: 40px;
+    }
+    img {
+      height: 760px;
+      position: relative;
+      top: -125px;
+      z-index: 1;
+      // border: blue solid;
+    }
+  }
+}
+@media only all and (max-width: 600px) {
+  .Cover {
+    display: none;
+  }
+}

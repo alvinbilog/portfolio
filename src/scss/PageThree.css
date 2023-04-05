@@ -1,0 +1,10 @@
+.PageThree {
+  width: 600px;
+  height: 778px;
+  position: relative;
+  border-radius: 0px;
+  background: #fbfbfb;
+  -webkit-box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+          box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+}
+/*# sourceMappingURL=PageThree.css.map */

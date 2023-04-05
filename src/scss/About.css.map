@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECCD,OAAO;EDAtB,KAAK,ECHM,OAAO;EDIlB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,MAAM;CAOnB;;AAbD,AAOE,MAPI,CAOJ,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;CAId;;AAZH,AASI,MATE,CAOJ,UAAU,CAER,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "About.scss",
+        "_colors.scss"
+    ],
+    "names": [],
+    "file": "About.css"
+}

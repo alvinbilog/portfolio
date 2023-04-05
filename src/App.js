@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import Nav from "./components/Nav";
+import Book from "./components/Book";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
+import Applications from "./components/Applications";
+import Projects from "./components/Projects";
+import About from "./components/About";
+// import ScrollSpy from 'react-scrollspy-navigation';
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Book />
+      <Footer />
+      <section id="skills">
+        <Skills />
+      </section>
+      <Applications />
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="contact">
+        <About />
+      </section>
     </div>
   );
-}
+};
 
 export default App;

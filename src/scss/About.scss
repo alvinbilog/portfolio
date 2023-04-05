@@ -1,0 +1,15 @@
+@import "./colors";
+.About {
+  height: 40vh;
+  background-color: $secondarycolor;
+  color: $textcolor2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  .Container {
+    padding: 30px;
+    h1 {
+      font-size: 18px;
+    }
+  }
+}

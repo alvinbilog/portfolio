@@ -1,0 +1,63 @@
+@import './colors';
+.Applications {
+  height: 85vh;
+  flex-direction: column;
+  text-align: center;
+  color: $textcolor3;
+
+  .container {
+    display: flex;
+    justify-content: center;
+
+    .mininav {
+      margin: 2rem;
+      list-style: none;
+      cursor: pointer;
+      color: $textcolor;
+      padding: 2px;
+      border-radius: 42.5px;
+      padding: 3px 8px;
+      transform: scale(1.08);
+    }
+    .active {
+      background-color: $primarycolor;
+      color: $textcolor;
+      padding: 2px;
+      border-radius: 42.5px;
+      padding: 3px 8px;
+    }
+  }
+  .list-container {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    .list {
+      display: grid;
+      grid-template-columns: repeat(5, 0.1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 50px;
+      grid-row-gap: 16px;
+    }
+  }
+}
+@media only all and (max-width: 600px) {
+  .Applications {
+    position: relative;
+    top: 570px;
+    margin: 0 auto;
+    .container {
+      margin: 0 auto;
+    }
+    .list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      // width: 60px;
+      align-items: center;
+      justify-items: center;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.Skills {
+  text-align: center;
+  height: 100vh;
+  color: #525151;
+}
+
+.Skills h1 {
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.Skills .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Skills .container .skills {
+  margin: 0 75px 0 75px;
+  width: 370px;
+}
+
+.Skills .container .skills .text-container {
+  margin-top: 50px;
+}
+
+.Skills .container .skills .text-container h3 {
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.Skills .container .skills .text-container img {
+  width: 320px;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0 auto;
+  margin-top: -18px;
+}
+
+.Skills .container .skills.One img {
+  height: 250px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.Skills .container .skills.Two img {
+  margin-top: 63px;
+  height: auto;
+  width: 360px;
+}
+
+.Skills .container .skills.Two .text-container {
+  margin-top: 60px;
+}
+
+.Skills .container .skills.Three img {
+  height: 250px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.Skills .svg_icon {
+  margin-top: 80px;
+  height: 300px;
+}
+
+@media only all and (max-width: 600px) {
+  .Skills {
+    margin: 0 auto;
+  }
+  .Skills .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .Skills .container .skills {
+    margin: 0 auto;
+  }
+  .Skills .container .skills img {
+    margin: 0 auto;
+  }
+  .Skills .svg_icon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Skills.css.map */

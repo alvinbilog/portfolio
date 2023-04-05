@@ -1,0 +1,21 @@
+.About {
+  height: 40vh;
+  background-color: #21201f;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.About .Container {
+  padding: 30px;
+}
+
+.About .Container h1 {
+  font-size: 18px;
+}
+/*# sourceMappingURL=About.css.map */

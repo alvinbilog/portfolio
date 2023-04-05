@@ -1,0 +1,31 @@
+.Apps .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Apps .container p {
+  margin: 0 auto;
+  opacity: 0;
+  color: #525151;
+  font-weight: 500;
+  border: solid 2px ye;
+}
+
+.Apps .container:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.Apps .container:hover p {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #525151;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=Apps.css.map */

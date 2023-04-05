@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,QAAQ;EAElB,aAAa,EAAE,GAAG;EAClB,UAAU,EAAE,OAAO;EACnB,UAAU,EAAE,4CAA4C;CACzD",
+    "sources": [
+        "PageThree.scss"
+    ],
+    "names": [],
+    "file": "PageThree.css"
+}

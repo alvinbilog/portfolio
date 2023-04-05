@@ -1,0 +1,21 @@
+@import "./colors";
+.PageTwo {
+  width: 600px;
+  height: 778px;
+  border-radius: 0px;
+  background: #fbfbfb;
+  box-shadow: 7px 7px 16px #a8a8a8, -7px -7px 16px #ffffff;
+  position: relative;
+  top: -20px;
+  // line-height: 0.5cm;
+  color: $textcolor3;
+  .container {
+    line-height: 0.5cm;
+    color: $textcolor3;
+    margin-left: 20px;
+    // padding: 5px;
+    p {
+      width: 550px;
+    }
+  }
+}

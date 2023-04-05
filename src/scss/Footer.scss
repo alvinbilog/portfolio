@@ -1,0 +1,15 @@
+@import "./colors";
+.Footer {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    position: fixed;
+    z-index: 5;
+    bottom: 20px;
+    width: 100%;
+    // border: red solid;
+  }
+  //   height: 10vh;
+  //   border: solid red;
+}
